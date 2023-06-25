@@ -17,8 +17,8 @@ customBinariesOnMachine=""
 
 for (( i=0; i<$suidLength; i++ ))   
  do  
- 		defaultSuidCount=$(cat formattedDefFile | sed -n "/${suidArray[i]}/p" | wc -l)
- 		gtfoSuidCount=$(cat formattedGTFOFile | sed -n "/${suidArray[i]}/p" | wc -l)
+	defaultSuidCount=$(cat formattedDefFile | sed -n "/${suidArray[i]}/p" | wc -l)
+	gtfoSuidCount=$(cat formattedGTFOFile | sed -n "/${suidArray[i]}/p" | wc -l)
 	 	
 	if [ $defaultSuidCount -gt 0 ];
  	then
